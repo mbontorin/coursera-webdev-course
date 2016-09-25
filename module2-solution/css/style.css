@@ -3,9 +3,6 @@
 * {
   box-sizing: border-box;
 }
-h1 {
-  margin-bottom: 15px;
-}
 
 section {
   border: 1px solid black;
@@ -50,7 +47,8 @@ section {
   }
 }
 
-.menuitem {
+/**** Section title only ********/
+.sectiontitle {
   position: absolute;
   top: 0;
   right: 0;
@@ -62,13 +60,45 @@ section {
   margin-bottom: 2%;
 }
 
-.menutext {
+/***** Section text only ********/
+.sectiontext {
   position: relative;
   padding-left: 5%;
-  padding-top: 15%;
+  padding-top: 40px;
   padding-bottom: 3%;
   background-color: grey;
   text-color: black;
   font-size: 125%;
   clear: right;
+}
+
+
+/**** alignment for heading h1 *****/
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+
+/**** Specify title section colors ******/
+#item1 {
+  background-color: pink;
+  text-color: black;
+}
+
+#item2 {
+  background-color: red;
+  text-color: white;
+}
+
+#item3 {
+  background-color: yellow;
+  text-color: black;
+}
+
+/**** For the tabled view, the third column must fill the entire row *****/
+@media (min-width: 768px) and (max-width: 991px) {
+  #div3 {
+    width: 98%;
+  }
 }
