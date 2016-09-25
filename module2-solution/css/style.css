@@ -16,7 +16,7 @@ section {
 
 /********** Laptops only **********/
 @media (min-width: 992px) {
-  .col-lg-4 {
+  .desktop {
     float: left;
     margin-left: 1%;
     margin-right: 1%;
@@ -27,7 +27,7 @@ section {
 
 /********** Tablets only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  .col-md-6 {
+  .tablet {
     float: left;
     margin-left: 1%;
     margin-right: 1%;
@@ -38,7 +38,7 @@ section {
 
 /********** Mobile only **********/
 @media (max-width: 767px) {
-  .col-sm-12 {
+  .mobile {
     float: left;
     margin-left: 1%;
     margin-right: 1%;
