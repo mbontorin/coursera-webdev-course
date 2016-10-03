@@ -1,0 +1,85 @@
+.navbar-brand h1 { /* Restaurant name */
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -25px;
+  margin-bottom: -10px;
+}
+
+#header-nav ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#header-nav .navbar-header {
+  margin-bottom: 30px;
+}
+
+#menutext {
+  background-color: grey;
+  color: black;
+}
+
+@media (min-width: 992px) {
+  #menutext {
+    margin: 30px 20px 20px 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  #menutext {
+    margin: 30px 15% 15% 15%;
+  }
+}
+
+#nav-list {
+  background-color: white;
+  color: black;
+}
+
+#nav-list li {
+  border: 1px solid black;
+  text-color: black;
+}
+
+#header-nav .navbar-toggle:focus, #header-nav .navbar-toggle:hover {
+  border: 2px solid white;
+}
+
+#header-nav .navbar-toggle {
+  border: 2px solid black;
+}
+
+#header-nav .navbar-toggle:focus .icon-bar, #header-nav .navbar-toggle:hover .icon-bar {
+  background-color: white;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+  color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #777;
+}
+
+#menuheading {
+  color: black;
+  font-weight: bold;
+}
