@@ -68,6 +68,10 @@
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: black;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 
